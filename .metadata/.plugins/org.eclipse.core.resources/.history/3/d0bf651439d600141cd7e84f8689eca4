@@ -1,0 +1,31 @@
+package ro.pub.cs.systems.pdsd.practicaltest01;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.EditText;
+
+public class PracticalTest01MainActivity extends Activity {
+
+	Button bst, bdr;
+	EditText etst, etdr;
+	
+	
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_practical_test01_main);
+        
+        
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.practical_test01_main, menu);
+        return true;
+    }
+    
+}

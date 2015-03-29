@@ -1,0 +1,27 @@
+package ro.pub.cs.systems.pdsd.practicaltest01;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class PracticalTest01SecondaryActivity extends Activity{
+	
+	Button ok, cancel;
+	EditText sec;
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_practical_test01_secondary);
+        
+        ok = (Button)findViewById(R.id.bOk);
+        cancel = (Button)findViewById(R.id.bCancel);
+        
+        sec = (EditText)findViewById(R.id.etSec);
+        
+        
+	}
+
+}

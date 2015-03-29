@@ -1,0 +1,9 @@
+package ro.pub.cs.systems.pdsd.practicaltest01;
+
+import android.app.Activity;
+
+public class PracticalTest01SecondaryActivity extends Activity{
+	
+	
+
+}
